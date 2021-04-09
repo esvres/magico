@@ -25,11 +25,11 @@ for %%i in (!inputs!\*) do (
         set res=%%rx%%r
         set filename=!t!\temp-%%r.png
         set filenames=!filenames! !filename!
-        magick convert !t!\temp.png -interpolate Integer -filter point -resize !res! !filename!
+        magick convert !t!\temp.png -scale !res! !filename!
     )
     set filename=!t!\temp-16.png
     set filenames=!filenames! !filename!
-    magick convert !x! -interpolate Integer -filter point -resize 16x16 !filename!
+    magick convert !x! -scale 16x16 !filename!
 
     magick convert !filenames! !outputs!\%%~ni.ico
     del !t!\*.png
