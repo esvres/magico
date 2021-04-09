@@ -35,5 +35,5 @@ for %%i in (!inputs!\*) do (
     del !t!\*.png
 
     echo %%~nxi: done.
-    explorer !outputs!
 )
+explorer !outputs!
