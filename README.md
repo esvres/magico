@@ -18,9 +18,9 @@ After that, you can set them as folder icons as follows:
 4. Click on Change Icon;
 5. Navigate to `\outputs` and select the icon.
 
-## Copyright
+## Credits
 - Folder icons designed by Microsoft;
 - Lavender icon designed by Freepik.
 
 ## License
-Magico is licensed under the MIT license.
+Magico is licensed under the Unlicense.
